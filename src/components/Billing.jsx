@@ -16,6 +16,11 @@ const Billing = () => (
             billing & invoicing.
           </h2>
           <p className={`${styles.paragraph} max-w-[470px] mt-5 `}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione maiores mollitia recusandae molestias ab reiciendis fugit sunt voluptatem explicabo laudantium, ducimus in commodi quae. At sequi corrupti nulla quod quisquam maxime beatae maiores!</p>
+          <div className={`flex flex-row flex-wrap sm:mt-10 mt-6  cursor-pointer`}>
+            <img src={apple} alt="apple" className={`w-[128px] h-[42px] object-contain mr-5 cursor-pointer`} />
+            <img src={google} alt="apple" className={`w-[128px] h-[42px] object-contain cursor-pointer`} />
+          </div>
+
         </div>
     </section>
   
