@@ -14,5 +14,5 @@ const CTA = () => (
   </section>
   
 )
-
+  
 export default CTA
