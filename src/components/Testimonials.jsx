@@ -4,8 +4,8 @@ import FeedbackCard from "./FeedbackCard"
 import { logo } from "../assets"
 
 const Testimonials = () => (
-  <section id="clients" className={`items-center ss:ml-24 ml-0 flex-col   relative`}>
-        <div className="absolute z-[0] w-[60%] h-[60% ] top-[50%] rounded-full blue___gradient"/>
+  <section id="clients" className={`items-center ss:ml-24  ml-0 flex-col relative`}>
+        <div className="absolute z-[0] w-[20%] h-[90%] ss:bottom-0 left-0 blue__gradient"/>
         
         <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
           <h1 className={styles.heading2}>
@@ -18,7 +18,7 @@ const Testimonials = () => (
             </p>
           </div>
         </div>
-        <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
+        <div className="flex flex-wrap md:w-[1200px] sm:justify-start justify-center w-full feedback-container relative z-[1]">
             {feedback.map((card) => (
                 <FeedbackCard key={card.id} {...card}/>
             ))}
